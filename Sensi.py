@@ -2,7 +2,7 @@ import os, hashlib
 import pandas as pd
 
 #  SETTINGS =================
-INPUT_FILE  = r"C:\Users\hp\Downloads\Sensi Data.csv"
+INPUT_FILE  = r"XXXXXXXXXXXXXX"
 OUT_DIR     = os.path.dirname(os.path.abspath(__file__))
 SECRET_SALT = "CHANGE_THIS_SECRET"      # keep it OUTSIDE the data, never share it
 
